@@ -16,7 +16,7 @@ Client-side only, no dependencies, fine to put in modpacks.
 
 | Minecraft | Loader | Java |
 |---|---|---|
-| 1.20.1 | Forge 47.4.28 or newer (also runs on NeoForge 1.20.1) | 17 |
+| 1.20.1 | Forge 47.4.28 or newer | 17 |
 | 1.21.1 | NeoForge 21.1.252 or newer | 21 |
 | 1.21.10 | NeoForge 21.10.64 or newer | 21 |
 | 1.21.11 | NeoForge 21.11.48 or newer | 21 |

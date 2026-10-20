@@ -18,7 +18,7 @@ jobs:
         include:
           - mc: "1.20.1"
             java: "17"
-            loaders: "forge neoforge"
+            loaders: "forge"
           - mc: "1.21.1"
             java: "21"
             loaders: "neoforge"
