@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.1 for 1.20.4
+- Added a build for Minecraft 1.20.4, with the chat drag fix from 1.0.1.
+
 ## 1.0.1 for 1.21
 - Added a build for Minecraft 1.21, with the chat drag fix from 1.0.1.
 
