@@ -9,7 +9,7 @@ chat, commands, signs, anvils, search bars and so on.
 
 - Words, numbers (like `3.14` or `$5`), punctuation and spaces are treated as separate steps
 - Clicking in a text box puts the cursor on the nearest side of the letter you clicked
-- On 1.21.1, 1.21.4 and 1.21.8 you can also drag to select text, which vanilla only added later
+- On 1.21.1, 1.21.4, 1.21.5 and 1.21.8 you can also drag to select text, which vanilla only added later
 - Works with right-to-left text and the usual macOS shortcuts
 
 Client-side only, no dependencies, fine to put in modpacks.
@@ -18,6 +18,7 @@ Client-side only, no dependencies, fine to put in modpacks.
 |---|---|---|
 | 1.21.1 | 21.1.252 or newer | 21 |
 | 1.21.4 | 21.4.161 or newer | 21 |
+| 1.21.5 | 21.5.101 or newer | 21 |
 | 1.21.8 | 21.8.57 or newer | 21 |
 | 1.21.10 | 21.10.64 or newer | 21 |
 | 1.21.11 | 21.11.48 or newer | 21 |

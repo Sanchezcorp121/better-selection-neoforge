@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "betterselection.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EditBoxMixin",
+    "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
