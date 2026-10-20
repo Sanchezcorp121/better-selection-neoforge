@@ -10,11 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/**
- * The chat screen passes clicks to its text box itself instead of going through the normal screen code, so it
- * never notes that a drag started and the text box never receives the mouse drag. Without this, dragging to
- * select does nothing in chat (it already worked in other text boxes).
- */
+// let drag-select work in chat
 @Mixin(ChatScreen.class)
 public abstract class ChatScreenMixin extends Screen {
     @Shadow
