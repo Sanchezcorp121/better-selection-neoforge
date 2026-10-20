@@ -4,7 +4,8 @@
   "package": "betterselection.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "EditBoxMixin"
+    "EditBoxMixin",
+    "ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
