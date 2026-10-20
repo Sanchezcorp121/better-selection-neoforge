@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "betterselection.mixin",
+  "refmap": "betterselection.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EditBoxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
