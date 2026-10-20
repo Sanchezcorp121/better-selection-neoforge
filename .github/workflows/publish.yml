@@ -19,24 +19,31 @@ jobs:
           - mc: "1.20.1"
             java: "17"
             loaders: "forge"
+            loader_name: "Forge"
           - mc: "1.21.1"
             java: "21"
             loaders: "neoforge"
+            loader_name: "NeoForge"
           - mc: "1.21.10"
             java: "21"
             loaders: "neoforge"
+            loader_name: "NeoForge"
           - mc: "1.21.11"
             java: "21"
             loaders: "neoforge"
+            loader_name: "NeoForge"
           - mc: "26.1.2"
             java: "25"
             loaders: "neoforge"
+            loader_name: "NeoForge"
           - mc: "26.2"
             java: "25"
             loaders: "neoforge"
+            loader_name: "NeoForge"
           - mc: "26.3"
             java: "25"
             loaders: "neoforge"
+            loader_name: "NeoForge"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -60,7 +67,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           github-tag: ${{ github.ref_name }}
           files: versions/${{ matrix.mc }}/build/libs/!(*-@(dev|sources|javadoc)).jar
-          name: Better Selection ${{ steps.ver.outputs.value }} for ${{ matrix.mc }}
+          name: Better Selection ${{ steps.ver.outputs.value }} for ${{ matrix.loader_name }} ${{ matrix.mc }}
           version: ${{ steps.ver.outputs.value }}+mc${{ matrix.mc }}
           version-type: release
           changelog-file: CHANGELOG.md
